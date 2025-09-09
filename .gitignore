@@ -1,0 +1,79 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.out/
+
+# Environment files
+.env*
+!.env.local.example
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage/
+*.lcov
+
+# Vite related
+.vite/
+# Vite build output (default)
+dist-client/
+# Vite cache
+.vite/cache/
+
+# Typescript
+*.tsbuildinfo
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# parcel-bundler cache (if you use parcel)
+.parcel-cache
+
+# next.js build output (if you use next.js)
+.next
+
+# browserslist cache (if you use browserslist)
+.browserslistrc
+
+# Local IndexedDB data (if stored in project directory)
+indexeddb/
+
+# FFmpeg.wasm temporary files
+ffmpeg-*
